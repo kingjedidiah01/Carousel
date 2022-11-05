@@ -1,0 +1,55 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+h1{
+    justify-items: center;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+.slider{
+    position: relative;
+    width: 0 50%;
+    margin: auto;
+    justify-content: center;
+}
+
+.img-box img{
+    width: 100%;
+    align-content: center;
+    margin: 50px;
+    
+}
+
+button{
+    border: none;
+    font-size: 2rem;
+    color: white;
+    background-color: lightblue;
+    border-radius: 50px;
+    padding: .1em .75em;
+    cursor: pointer;
+    transition: opacity 200ms;
+    opacity: 0.2;
+}
+
+.btn-prev{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    translate: 0 -50%;
+}
+
+.btn-next{
+    position: absolute;
+    right: -20%;
+    top: 50%;
+    translate: 0 -50%;
+}
+
+button:hover{
+    opacity: 1;
+}
